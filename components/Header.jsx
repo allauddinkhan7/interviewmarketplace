@@ -17,7 +17,7 @@ const Header = () => {
           className="h-11 w-auto" 
         />
       </Link>
-      {/* Redirection Logic 7HA2FbigFyu3M11B */}
+      {/* Redirection Logic  */}
       <Show when="signed-out">
         {/* Links */}
 
