@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import PricingSection from "@/components/PricingSection";
 import { AI_TAGS, AVATARS, LOGOS, ROLES, SLOTS } from "./lib/data";
+// import { PricingTable } from "@clerk/nextjs";
 
 function MockUI({ rows = 3 }) {
   const widths = ["w-4/5", "w-3/5", "w-2/5", "w-4/5", "w-1/2"];
@@ -140,7 +141,7 @@ export default function LandingPage() {
             priority
           /> */}
 
-          <CodeDemo duration={30000} writing />
+          <CodeDemo duration={10000} writing />
         </div>
       </section>
 
@@ -324,7 +325,7 @@ export default function LandingPage() {
             Each credit = one session. Unused credits roll over.
           </p>
         </div>
-
+          {/* <PricingTable/> */}
         {/* <PricingSection /> */}
       </section>
 
